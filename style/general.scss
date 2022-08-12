@@ -75,6 +75,11 @@ main {
         flex-direction: column;
         gap: 1rem;
 
+        .radio--container {
+            display: flex;
+            justify-content: space-between;
+        }
+
         input[type="submit"] {
             background: $orange;
             font-family: inherit;
