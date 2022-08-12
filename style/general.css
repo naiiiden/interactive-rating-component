@@ -32,7 +32,12 @@ main {
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   padding: 1.5rem;
 }
-main .star {
+main .start--container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .start--container .star {
   background: hsl(215deg, 10%, 23%);
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -43,7 +48,14 @@ main .star {
   display: grid;
   place-content: center;
 }
-main .star img {
+main .start--container .star img {
   width: 15px;
   height: 15px;
+}
+main h2 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.75rem;
+}
+main p {
+  color: hsl(217deg, 12%, 63%);
 }/*# sourceMappingURL=general.css.map */
