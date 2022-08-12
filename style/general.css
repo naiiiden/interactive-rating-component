@@ -11,6 +11,9 @@ body {
   min-height: 100vh;
   font-family: Overpass, sans-serif;
   background: hsl(216deg, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -20,4 +23,9 @@ p {
 img {
   max-width: 100%;
   height: auto;
+}
+
+main {
+  border: 1px solid red;
+  width: 300px;
 }/*# sourceMappingURL=general.css.map */
