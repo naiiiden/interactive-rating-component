@@ -31,7 +31,6 @@ main {
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   padding: 1.5rem;
-  /* The container */
 }
 main .start--container {
   display: flex;
@@ -59,6 +58,23 @@ main h2 {
 }
 main p {
   color: hsl(217deg, 12%, 63%);
+}
+main .end--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+main .end--container img {
+  width: 50%;
+}
+main .end--container .selection--p {
+  color: hsl(25deg, 97%, 53%);
+  background: hsl(215deg, 10%, 23%);
+  padding: 0.375rem 0.625rem;
+  border-radius: 1rem;
 }
 main form {
   display: flex;

@@ -70,6 +70,26 @@ main {
         color: $light-grey;
     }
 
+    .end--container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+
+        img {
+            width: 50%;
+        }
+
+        .selection--p {
+            color: $orange;
+            background: hsl(215, 10%, 23%);
+            padding: .375rem .625rem;
+            border-radius: 1rem;
+        }
+    }
+
     form {
         display: flex;
         flex-direction: column;
@@ -100,50 +120,49 @@ main {
         }
     }
 
-    /* The container */
-.container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 2.5rem;
-    cursor: pointer;
-    font-size: 1rem;
-    user-select: none;
-  }
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 2.5rem;
+        cursor: pointer;
+        font-size: 1rem;
+        user-select: none;
+    }
   
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-  }
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
 
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 37.5px;
-    width: 37.5px;
-    background: hsl(215, 10%, 23%);
-    border-radius: 50%;
-    transition: .2s;
-  }
-  .container:hover input ~ .checkmark {
-    background-color: $light-grey;
-    transition: .2s;
-  }
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 37.5px;
+        width: 37.5px;
+        background: hsl(215, 10%, 23%);
+        border-radius: 50%;
+        transition: .2s;
+    }
+    
+    .container:hover input ~ .checkmark {
+        background-color: $light-grey;
+        transition: .2s;
+    }
   
-  .container input:checked ~ .checkmark {
-    background-color: $orange;
-    transition: .2s;
-  }
+    .container input:checked ~ .checkmark {
+        background-color: $orange;
+        transition: .2s;
+    }
 
-  .number {
-    position: absolute;
-    left: 14px;
-    top: 10px;
-    z-index: 1;
-    color: $white;
-    transition: .2s;
-  }
-
+    .number {
+        position: absolute;
+        left: 14px;
+        top: 10px;
+        z-index: 1;
+        color: $white;
+        transition: .2s;
+    }
 }
