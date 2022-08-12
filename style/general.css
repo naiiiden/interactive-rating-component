@@ -31,4 +31,19 @@ main {
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   padding: 1.5rem;
+}
+main .star {
+  background: hsl(215deg, 10%, 23%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-content: center;
+}
+main .star img {
+  width: 15px;
+  height: 15px;
 }/*# sourceMappingURL=general.css.map */

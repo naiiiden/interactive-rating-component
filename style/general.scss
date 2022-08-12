@@ -39,4 +39,19 @@ main {
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     padding: 1.5rem;
+
+    .star {
+        background: hsl(215, 10%, 23%);
+        width: fit-content;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        display: grid;
+        place-content: center;
+
+        img {
+            width: 15px;
+            height: 15px;
+        }
+    }
 }
