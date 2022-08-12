@@ -34,6 +34,9 @@ img {
 }
 
 main {
-    border: 1px solid red;
     width: 300px;
+    background: $dark-blue;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 1.5rem;
 }
