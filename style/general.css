@@ -74,4 +74,10 @@ main form input[type=submit] {
   border-radius: 1rem;
   height: 2rem;
   cursor: pointer;
+  transition: 0.2s;
+}
+main form input[type=submit]:hover {
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  transition: 0.2s;
 }/*# sourceMappingURL=general.css.map */

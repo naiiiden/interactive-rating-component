@@ -85,6 +85,13 @@ main {
             border-radius: 1rem;
             height: 2rem;
             cursor: pointer;
+            transition: .2s;
+
+            &:hover {
+                background: $white;
+                color: $orange;
+                transition: .2s;
+            }
         }
     }
 
